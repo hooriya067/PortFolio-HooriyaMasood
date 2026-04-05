@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="76547b94-c5ae-48f6-966f-2e46a065ef57" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/app-build-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/build-manifest.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.next/cache/webpack/client-development-fallback/0.pack.gz" beforeDir="false" />
@@ -709,6 +711,7 @@
       <change beforePath="$PROJECT_DIR$/.venv/Scripts/winsound.pyd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/Scripts/zlib1.dll" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.venv/pyvenv.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer.cmd" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.bin/autoprefixer.ps1" beforeDir="false" />

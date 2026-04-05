@@ -12,81 +12,98 @@ const projects = [
       'Built a hybrid deepfake detection system combining RGB and frequency-domain (FFT) features with transformer-based fusion. Extended the model to perform region-level localization using superpixel segmentation and weak supervision, enabling interpretable detection of manipulated areas rather than just image-level classification.',
     highlights: ['Multimodal RGB + FFT pipeline', 'Cross-dataset testing', 'Interpretability / fake-region localization'],
     link: 'https://github.com/hooriya067/Advanced-deepfake-detection-with-annotation',
+    cta: 'View project',
+    private: false,
   },
   {
-  title: 'Insight Canvas',
-  stack: 'React · FastAPI · Machine Learning · Plotly',
-  description:
-    'Engineered an intelligent data visualisation platform that automatically generates and ranks insights from datasets using ML-based ranking models (LambdaMART). Built a full-stack system with interactive dashboards, story generation, and chart history for enhanced analytical workflows.',
-  highlights: [
-    'ML-based chart ranking (LambdaMART)',
-    'Story builder for data narratives',
-    'Interactive dashboards with Plotly',
-    'Full-stack architecture (React + FastAPI)',
-  ],
-  link: 'Private repository – demo available upon request',
+    title: 'Insight Canvas',
+    stack: 'React · FastAPI · Machine Learning · Plotly',
+    description:
+      'Engineered an intelligent data visualisation platform that automatically generates and ranks insights from datasets using ML-based ranking models (LambdaMART). Built a full-stack system with interactive dashboards, story generation, and chart history for enhanced analytical workflows.',
+    highlights: [
+      'ML-based chart ranking (LambdaMART)',
+      'Story builder for data narratives',
+      'Interactive dashboards with Plotly',
+      'Full-stack architecture (React + FastAPI)',
+    ],
+    link: 'mailto:hcyhm2@nottingham.edu.my?subject=Request%20access%20to%20Insight%20Canvas',
+    cta: 'Request access',
+    private: true,
   },
   {
     title: 'Rentify- Peer2Peer Renting',
     stack: 'Kotlin · Jetpack Compose · Firebase · Stripe',
     description:
       'Built a full-stack mobile rental platform enabling peer-to-peer item sharing with real-time booking, conflict-free scheduling, and secure payments. Designed using MVVM architecture with Firebase and a custom Stripe backend, supporting features like time-slot validation, penalty enforcement, messaging, and transaction tracking in a scalable, production-style system.',
-    highlights: ['3D landing section', 'Responsive project pages', 'Deployable on Vercel'],
-    link : 'Private repository – demo available upon request',
+    highlights: [
+      'Real-time booking & scheduling',
+      'Firebase backend integration',
+      'Stripe payment workflow',
+    ],
+    link: 'mailto:hcyhm2@nottingham.edu.my?subject=Request%20access%20to%20Rentify',
+    cta: 'Request access',
+    private: true,
   },
   {
-  title: 'Warehouse Management - Hybrid Multi-Agent System',
-  stack: 'Python · Multi-Agent Systems · A* · Reinforcement Learning',
-  description:
-    'Developing a hybrid Intelligent multi-agent warehouse system combining A* path planning, congestion-aware task allocation, and reactive safety control. Uses dynamic traffic heatmaps to optimise routing, reduce deadlocks, and improve multi-robot coordination in constrained environments.',
-  highlights: [
-    'Hybrid architecture (planning + adaptive layer)',
-    'Congestion-aware task allocation',
-    'Dynamic heatmap-based routing',
-    'Focus on deadlock reduction & efficiency',
-  ],
-  link: 'Ongoing project – code available soon',
+    title: 'Warehouse Management - Hybrid Multi-Agent System',
+    stack: 'Python · Multi-Agent Systems · A* · Reinforcement Learning',
+    description:
+      'Developing a hybrid Intelligent multi-agent warehouse system combining A* path planning, congestion-aware task allocation, and reactive safety control. Uses dynamic traffic heatmaps to optimise routing, reduce deadlocks, and improve multi-robot coordination in constrained environments.',
+    highlights: [
+      'Hybrid architecture (planning + adaptive layer)',
+      'Congestion-aware task allocation',
+      'Dynamic heatmap-based routing',
+      'Focus on deadlock reduction & efficiency',
+    ],
+    link: '#',
+    cta: 'Ongoing project',
+    private: true,
   },
   {
-  title: 'Flower Segmentation Pipeline',
-  stack: 'Python · OpenCV · NumPy · Image Processing',
-  description:
-    'Designed a classical image processing pipeline to segment flowers from complex backgrounds using bilateral filtering, K-means clustering, watershed refinement, and morphological operations. Achieved high segmentation accuracy (mIoU ~0.91) with a lightweight and interpretable approach.',
-  highlights: [
-    'K-means clustering + watershed segmentation',
-    'Morphological refinement pipeline',
-    'mIoU up to ~0.91',
-    'No deep learning – efficient & interpretable',
-  ],
-  link: 'https://github.com/hooriya067/Flower-segmentation',
+    title: 'Flower Segmentation Pipeline',
+    stack: 'Python · OpenCV · NumPy · Image Processing',
+    description:
+      'Designed a classical image processing pipeline to segment flowers from complex backgrounds using bilateral filtering, K-means clustering, watershed refinement, and morphological operations. Achieved high segmentation accuracy (mIoU ~0.91) with a lightweight and interpretable approach.',
+    highlights: [
+      'K-means clustering + watershed segmentation',
+      'Morphological refinement pipeline',
+      'mIoU up to ~0.91',
+      'No deep learning – efficient & interpretable',
+    ],
+    link: 'https://github.com/hooriya067/Flower-segmentation',
+    cta: 'View project',
+    private: false,
   },
   {
-  title: 'Sky Strike Saga - 2D Survival Game Engine',
-  stack: 'Java · Maven · Game Logic · OOP',
-  description:
-    'Developed a 2D survival game featuring real-time player movement, enemy , collision handling, and health-based combat mechanics. Designed using object-oriented principles with modular systems for game state management, rendering, and interaction logic.',
-  highlights: [
-    'Real-time player movement & controls',
-    'Enemy AI behaviour & combat system',
-    'Collision detection & health mechanics',
-    'Modular OOP-based game architecture',
-  ],
-  link: 'https://github.com/hooriya067/DevMainSoft-CW2024',
- },
- {
-  title: 'Developer Portfolio',
-  stack: 'Next.js · React · Tailwind CSS · Three.js · Vercel',
-  description:
-    'Built a modern 3D portfolio website to showcase AI, full-stack, and systems projects with interactive visuals and recruiter-focused design. Features smooth animations, responsive layouts, and direct integration with live projects and GitHub repositories.',
-  highlights: [
-    '3D interactive landing (Three.js)',
-    'Responsive & recruiter-friendly design',
-    'Project showcase with live/demo links',
-    'Deployed on Vercel with CI/CD',
-  ],
-  link: 'https://your-portfolio-link.vercel.app',
- }
-
+    title: 'Sky Strike Saga - 2D Survival Game Engine',
+    stack: 'Java · Maven · Game Logic · OOP',
+    description:
+      'Developed a 2D survival game featuring real-time player movement, enemy, collision handling, and health-based combat mechanics. Designed using object-oriented principles with modular systems for game state management, rendering, and interaction logic.',
+    highlights: [
+      'Real-time player movement & controls',
+      'Enemy AI behaviour & combat system',
+      'Collision detection & health mechanics',
+      'Modular OOP-based game architecture',
+    ],
+    link: 'https://github.com/hooriya067/DevMainSoft-CW2024',
+    cta: 'View project',
+    private: false,
+  },
+  {
+    title: 'Developer Portfolio',
+    stack: 'Next.js · React · Tailwind CSS · Three.js · Vercel',
+    description:
+      'Built a modern 3D portfolio website to showcase AI, full-stack, and systems projects with interactive visuals and recruiter-focused design. Features smooth animations, responsive layouts, and direct integration with live projects and GitHub repositories.',
+    highlights: [
+      '3D interactive landing (Three.js)',
+      'Responsive & recruiter-friendly design',
+      'Project showcase with live/demo links',
+      'Deployed on Vercel with CI/CD',
+    ],
+    link: 'https://port-folio-hooriya-masood-nw8d.vercel.app/',
+    cta: 'View project',
+    private: false,
+  },
 ];
 
 const skills = [
@@ -210,7 +227,7 @@ function Hero() {
               View Projects
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/hooriya067"
               target="_blank"
               rel="noreferrer"
               className="rounded-2xl border border-white/15 px-6 py-3 font-medium text-white transition hover:-translate-y-0.5 hover:bg-white/5"
@@ -281,15 +298,24 @@ function Projects() {
                   <li key={item}>• {item}</li>
                 ))}
               </ul>
+          {project.private ? (
+              <a
+                href={project.link}
+                className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-accent transition group-hover:gap-3"
+              >
+                {project.cta} <ArrowUpRight size={16} />
+              </a>
+            ) : (
               <a
                 href={project.link}
                 target="_blank"
                 rel="noreferrer"
                 className="mt-6 inline-flex items-center gap-2 text-sm font-medium text-accent transition group-hover:gap-3"
               >
-                View project <ArrowUpRight size={16} />
+                {project.cta} <ArrowUpRight size={16} />
               </a>
-            </motion.article>
+        )}
+                        </motion.article>
           ))}
         </div>
       </div>
