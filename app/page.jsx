@@ -31,7 +31,7 @@ const projects = [
     private: true,
   },
   {
-    title: 'test - Peer2Peer Renting',
+    title: 'Rentify - Peer2Peer Renting',
     stack: 'Kotlin · Jetpack Compose · Firebase · Stripe',
     description:
       'Built a full-stack mobile rental platform enabling peer-to-peer item sharing with real-time booking, conflict-free scheduling, and secure payments. Designed using MVVM architecture with Firebase and a custom Stripe backend, supporting features like time-slot validation, penalty enforcement, messaging, and transaction tracking in a scalable, production-style system.',
